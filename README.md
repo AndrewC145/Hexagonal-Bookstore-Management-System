@@ -4,6 +4,22 @@ A simple ArrayList would be better over a Trie for search operations when it com
 
 Therefore, Trie’s are typically better when it comes to search operations especially in large datasets when it takes less steps to find the words given a prefix, but in smaller datasets where less words are used, an ArrayList is easier to implement. Another way is that if whole words are used instead of prefixes, Arraylist would be better since you can just use the .contains() method.
 
+6. How would you modify this system to handle 1 million materials instead of 10,000? Which components would need the most attention? How would you implement horizontal scaling for the search and caching components?  
+
+To handle 1 million materials, the repository should move from a local JSON-based implementation to a distributed database like PostgreSQL, MongoDB, or Elasticsearch, while the search component should use a distributed search engine with sharding. The repository and search layers require the most attention due to memory and performance constraints. Horizontal scaling can be achieved by running multiple stateless application instances behind a load balancer, using a distributed cache like Redis or Memcached to share cached data across instances.
+
+7. How do the different patterns (Observer, Chain of Responsibility) handle error conditions? What are the trade-offs between fail-fast and fail-safe error handling strategies?  
+   
+The Chain of Responsibility handles errors sequentially, often using a fail-fast approach for invalid input, immediately throwing exceptions to prevent invalid data from propagating. The Observer pattern uses a fail-safe strategy, where a failure in one observer does not stop notifications to others, ensuring system resilience. Fail-fast improves reliability and early bug detection but can halt processes, while fail-safe prioritizes availability but may delay error discovery.
+
+8. How does property-based testing differ from traditional unit testing? When is each approach most valuable? How do you design effective property-based tests for complex business logic?  
+
+Property-based testing (PBT) validates general invariants over a wide range of randomized inputs, while traditional unit testing (TUT) checks specific scenarios. TUT is useful for verifying defined business rules and boundary cases, whereas PBT is valuable for testing complex logic and discovering edge cases. Effective PBT focuses on system invariants, such as ensuring filtering always returns valid results or that operations like adding and removing components are reversible.
+
+9. Which aspects of this lab’s implementation make the code easier to maintain and extend? What could be improved? How do design patterns contribute to maintainability, and what are their potential drawbacks?  
+   
+Maintainability is supported by the Hexagonal Architecture, SOLID principles, and patterns like Decorator and Observer, which enable modular, loosely coupled components and easier feature addition. Quality gates and testing reinforce reliability. Areas for improvement include managing concurrency complexity (e.g., StampedLock) and the learning curve from multiple integrated design patterns, which can introduce abstraction overhead and make the system harder for new developers to grasp.
+
 12. Why was a Trie chosen for prefix search over other data structures? What are the memory vs time complexity trade-offs? How would you optimize the Trie implementation for a production system?
 
 A Trie was chosen because of its ability to store strings as a single character for each node, character by character, and the path from the root to a specific node represents a prefix. One of the reasons why a Trie is preferred over another data structure like an ArrayList for example, is the performance for searching an element. Searching in a Trie is O(P + R) where P = prefix length and R = number of results, compared to an ArrayList where checking every word that starts with a prefix is O(N * M) where N is the number of words and M is the length of the prefix. Although its time complexity is better than something like an ArrayList, an ArrayList has better memory complexity, O(N) where N is the number of elements stored, compared to a Trie where it is O(total characters) + stored object references. But generally, a Trie is preferred because you just have to follow the characters by comparing at one character per level instead of comparing to an entire string, which also leads to less comparison towards entire strings.
