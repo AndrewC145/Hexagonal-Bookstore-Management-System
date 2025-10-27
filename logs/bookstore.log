@@ -1,0 +1,323 @@
+2025-10-26 20:50:04.922 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - === Material Store Polymorphism Demo ===
+
+2025-10-26 20:50:04.937 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 1. POLYMORPHIC BEHAVIOR
+2025-10-26 20:50:04.937 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - ------------------------
+2025-10-26 20:50:04.937 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Material Type: Book
+2025-10-26 20:50:04.939 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Title: Effective Java
+2025-10-26 20:50:04.939 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Creator: Joshua Bloch
+2025-10-26 20:50:04.940 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Display Info: Effective Java by Joshua Bloch (2018, Hardcover) - 412 pages, $45.99
+2025-10-26 20:50:04.940 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Original Price: $45.99
+2025-10-26 20:50:04.940 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discount Rate: 15.0%
+2025-10-26 20:50:04.940 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discounted Price: $39.09
+2025-10-26 20:50:04.940 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Material Type: Magazine
+2025-10-26 20:50:04.940 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Title: National Geographic
+2025-10-26 20:50:04.940 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Creator: NatGeo Society
+2025-10-26 20:50:04.940 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Display Info: National Geographic - Issue #3 (Monthly 2024) - Science, $6.99
+2025-10-26 20:50:04.941 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Original Price: $6.99
+2025-10-26 20:50:04.941 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discount Rate: 25.0%
+2025-10-26 20:50:04.941 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discounted Price: $5.24
+2025-10-26 20:50:04.941 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Material Type: Audio Book
+2025-10-26 20:50:04.941 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Title: 1984
+2025-10-26 20:50:04.941 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Creator: George Orwell (Narrated by Simon Prebble)
+2025-10-26 20:50:04.942 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Display Info: 1984 by George Orwell, narrated by Simon Prebble - Unabridged, 11 hours 30 minutes, $14.99
+2025-10-26 20:50:04.942 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Original Price: $14.99
+2025-10-26 20:50:04.942 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discount Rate: 0.0%
+2025-10-26 20:50:04.942 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discounted Price: $14.99
+2025-10-26 20:50:04.942 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Material Type: Audio Book
+2025-10-26 20:50:04.942 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Title: The Hobbit
+2025-10-26 20:50:04.942 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Creator: J.R.R. Tolkien (Narrated by Rob Inglis)
+2025-10-26 20:50:04.943 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Display Info: The Hobbit by J.R.R. Tolkien, narrated by Rob Inglis - Abridged, 11 hours 0 minutes, $24.99
+2025-10-26 20:50:04.943 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Original Price: $24.99
+2025-10-26 20:50:04.943 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discount Rate: 10.0%
+2025-10-26 20:50:04.943 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discounted Price: $22.49
+2025-10-26 20:50:04.943 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Material Type: Audio Book
+2025-10-26 20:50:04.943 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Title: Atomic Habits
+2025-10-26 20:50:04.943 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Creator: James Clear (Narrated by James Clear)
+2025-10-26 20:50:04.943 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Display Info: Atomic Habits by James Clear, narrated by James Clear - Unabridged, 5 hours 20 minutes, $19.99
+2025-10-26 20:50:04.944 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Original Price: $19.99
+2025-10-26 20:50:04.944 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discount Rate: 0.0%
+2025-10-26 20:50:04.944 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discounted Price: $19.99
+2025-10-26 20:50:04.944 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Material Type: Documentary
+2025-10-26 20:50:04.944 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Title: Planet Earth II
+2025-10-26 20:50:04.944 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Creator: David Attenborough
+2025-10-26 20:50:04.944 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Display Info: Planet Earth II (2016) - Directed by David Attenborough, Documentary, 300 min, Rated G, $29.99
+2025-10-26 20:50:04.944 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Original Price: $29.99
+2025-10-26 20:50:04.944 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discount Rate: 30.0%
+2025-10-26 20:50:04.945 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discounted Price: $20.99
+2025-10-26 20:50:04.945 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Material Type: Video
+2025-10-26 20:50:04.945 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Title: The Matrix
+2025-10-26 20:50:04.945 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Creator: The Wachowskis
+2025-10-26 20:50:04.945 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Display Info: The Matrix (1999) - Directed by The Wachowskis, Movie, 136 min, Rated R, $19.99
+2025-10-26 20:50:04.945 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Original Price: $19.99
+2025-10-26 20:50:04.945 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discount Rate: 30.0%
+2025-10-26 20:50:04.945 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discounted Price: $13.99
+2025-10-26 20:50:04.945 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Material Type: Video
+2025-10-26 20:50:04.946 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Title: Advanced Java Programming
+2025-10-26 20:50:04.946 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Creator: Tech Education Inc
+2025-10-26 20:50:04.946 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Display Info: Advanced Java Programming (2024) - Directed by Tech Education Inc, Tutorial, 480 min, Rated NR, $89.99
+2025-10-26 20:50:04.946 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Original Price: $89.99
+2025-10-26 20:50:04.946 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discount Rate: 0.0%
+2025-10-26 20:50:04.946 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discounted Price: $89.99
+2025-10-26 20:50:04.946 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Material Type: Video
+2025-10-26 20:50:04.946 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Title: Breaking Bad - Season 1
+2025-10-26 20:50:04.947 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Creator: Vince Gilligan
+2025-10-26 20:50:04.947 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Display Info: Breaking Bad - Season 1 (2008) - Directed by Vince Gilligan, TV Series, 420 min, Rated TV-MA, $39.99
+2025-10-26 20:50:04.947 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Original Price: $39.99
+2025-10-26 20:50:04.947 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discount Rate: 30.0%
+2025-10-26 20:50:04.947 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discounted Price: $27.99
+2025-10-26 20:50:04.947 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Material Type: Video
+2025-10-26 20:50:04.947 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Title: The Red Balloon
+2025-10-26 20:50:04.947 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Creator: Albert Lamorisse
+2025-10-26 20:50:04.948 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Display Info: The Red Balloon (1956) - Directed by Albert Lamorisse, Short Film, 34 min, Rated G, $9.99
+2025-10-26 20:50:04.948 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Original Price: $9.99
+2025-10-26 20:50:04.948 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discount Rate: 30.0%
+2025-10-26 20:50:04.948 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discounted Price: $6.99
+2025-10-26 20:50:04.948 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Material Type: Video
+2025-10-26 20:50:04.948 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Title: Quantum Physics Explained
+2025-10-26 20:50:04.948 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Creator: MIT OpenCourseWare
+2025-10-26 20:50:04.948 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Display Info: Quantum Physics Explained (2024) - Directed by MIT OpenCourseWare, Educational, 90 min, Rated NR, $0.00
+2025-10-26 20:50:04.948 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Original Price: $0.00
+2025-10-26 20:50:04.949 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discount Rate: 0.0%
+2025-10-26 20:50:04.949 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Discounted Price: $0.00
+2025-10-26 20:50:04.949 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+
+2025-10-26 20:50:04.949 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 2. INTERFACE SEGREGATION (Media Interface)
+2025-10-26 20:50:04.949 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - -------------------------------------------
+2025-10-26 20:50:04.951 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Found 9 media items:
+
+2025-10-26 20:50:04.951 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Media: 1984
+2025-10-26 20:50:04.951 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Duration: 690 min, Format: MP3, Quality: High Quality, Size: 850.5 MB
+2025-10-26 20:50:04.951 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Download time at 10 Mbps: 681 seconds
+2025-10-26 20:50:04.951 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Streaming only: false
+2025-10-26 20:50:04.951 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Media: The Hobbit
+2025-10-26 20:50:04.952 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Duration: 660 min, Format: M4B, Quality: Standard Quality, Size: 450.0 MB
+2025-10-26 20:50:04.952 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Download time at 10 Mbps: 360 seconds
+2025-10-26 20:50:04.952 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Streaming only: false
+2025-10-26 20:50:04.952 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Media: Atomic Habits
+2025-10-26 20:50:04.952 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Duration: 320 min, Format: FLAC, Quality: Ultra HD, Size: 1200.0 MB
+2025-10-26 20:50:04.952 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Download time at 10 Mbps: 960 seconds
+2025-10-26 20:50:04.952 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Streaming only: false
+2025-10-26 20:50:04.952 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Media: Planet Earth II
+2025-10-26 20:50:04.952 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Duration: 300 min, Format: MP4, Quality: Ultra HD, Size: 4500.0 MB
+2025-10-26 20:50:04.953 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Download time at 10 Mbps: 0 seconds
+2025-10-26 20:50:04.953 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Streaming only: true
+2025-10-26 20:50:04.953 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Media: The Matrix
+2025-10-26 20:50:04.953 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Duration: 136 min, Format: MP4, Quality: HD Quality, Size: 2800.0 MB
+2025-10-26 20:50:04.953 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Download time at 10 Mbps: 2240 seconds
+2025-10-26 20:50:04.953 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Streaming only: false
+2025-10-26 20:50:04.953 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Media: Advanced Java Programming
+2025-10-26 20:50:04.953 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Duration: 480 min, Format: MP4, Quality: HD Quality, Size: 3200.0 MB
+2025-10-26 20:50:04.953 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Download time at 10 Mbps: 2560 seconds
+2025-10-26 20:50:04.954 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Streaming only: false
+2025-10-26 20:50:04.954 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Media: Breaking Bad - Season 1
+2025-10-26 20:50:04.954 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Duration: 420 min, Format: MKV, Quality: HD Quality, Size: 8500.0 MB
+2025-10-26 20:50:04.954 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Download time at 10 Mbps: 0 seconds
+2025-10-26 20:50:04.954 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Streaming only: true
+2025-10-26 20:50:04.954 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Media: The Red Balloon
+2025-10-26 20:50:04.954 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Duration: 34 min, Format: AVI, Quality: Standard Quality, Size: 250.0 MB
+2025-10-26 20:50:04.954 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Download time at 10 Mbps: 200 seconds
+2025-10-26 20:50:04.954 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Streaming only: false
+2025-10-26 20:50:04.954 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Media: Quantum Physics Explained
+2025-10-26 20:50:04.954 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Duration: 90 min, Format: WEBM, Quality: High Quality, Size: 680.0 MB
+2025-10-26 20:50:04.955 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Download time at 10 Mbps: 544 seconds
+2025-10-26 20:50:04.955 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Streaming only: false
+2025-10-26 20:50:04.955 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+
+2025-10-26 20:50:04.955 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 3. ABSTRACTION (Abstract Base Class)
+2025-10-26 20:50:04.955 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - -------------------------------------
+2025-10-26 20:50:04.955 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Materials grouped by type:
+
+2025-10-26 20:50:04.956 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Book: 1 items
+2025-10-26 20:50:04.956 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - Effective Java ($45.99)
+2025-10-26 20:50:04.956 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Magazine: 1 items
+2025-10-26 20:50:04.957 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - National Geographic ($6.99)
+2025-10-26 20:50:04.957 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Audio Book: 3 items
+2025-10-26 20:50:04.957 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - 1984 ($14.99)
+2025-10-26 20:50:04.957 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - The Hobbit ($24.99)
+2025-10-26 20:50:04.957 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - Atomic Habits ($19.99)
+2025-10-26 20:50:04.957 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Video: 5 items
+2025-10-26 20:50:04.957 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - The Matrix ($19.99)
+2025-10-26 20:50:04.957 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - Advanced Java Programming ($89.99)
+2025-10-26 20:50:04.958 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - Breaking Bad - Season 1 ($39.99)
+2025-10-26 20:50:04.958 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - The Red Balloon ($9.99)
+2025-10-26 20:50:04.958 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - Quantum Physics Explained ($0.00)
+2025-10-26 20:50:04.958 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Documentary: 1 items
+2025-10-26 20:50:04.958 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - Planet Earth II ($29.99)
+2025-10-26 20:50:04.958 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+
+2025-10-26 20:50:04.958 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 4. DYNAMIC BINDING
+2025-10-26 20:50:04.958 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - -------------------
+2025-10-26 20:50:04.961 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Cheapest item: Quantum Physics Explained (2024) - Directed by MIT OpenCourseWare, Educational, 90 min, Rated NR, $0.00
+2025-10-26 20:50:04.962 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Most expensive: Advanced Java Programming (2024) - Directed by Tech Education Inc, Tutorial, 480 min, Rated NR, $89.99
+2025-10-26 20:50:04.962 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Dynamic method dispatch:
+2025-10-26 20:50:04.962 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Processing: Quantum Physics Explained
+2025-10-26 20:50:04.962 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     -> This is media with duration: 90 minutes
+2025-10-26 20:50:04.962 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Processing: Advanced Java Programming
+2025-10-26 20:50:04.962 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     -> This is media with duration: 480 minutes
+2025-10-26 20:50:04.962 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+
+2025-10-26 20:50:04.963 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 5. SOLID PRINCIPLES IN ACTION
+2025-10-26 20:50:04.963 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - ------------------------------
+2025-10-26 20:50:04.971 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Inventory Statistics:
+2025-10-26 20:50:04.972 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Total items: 11
+2025-10-26 20:50:04.972 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Average price: $27.54
+2025-10-26 20:50:04.972 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Median price: $19.99
+2025-10-26 20:50:04.972 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Unique types: 5
+2025-10-26 20:50:04.972 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Media items: 9
+2025-10-26 20:50:04.972 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Print items: 2
+2025-10-26 20:50:04.974 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Total inventory value: $302.90
+2025-10-26 20:50:04.975 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Total with discounts: $261.77
+2025-10-26 20:50:04.975 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - Total savings: $41.13
+2025-10-26 20:50:04.975 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Filtered Results (Lambda Expression):
+2025-10-26 20:50:04.976 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Items under $20: 6
+2025-10-26 20:50:04.976 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     - National Geographic ($6.99)
+2025-10-26 20:50:04.977 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     - 1984 ($14.99)
+2025-10-26 20:50:04.977 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     - Atomic Habits ($19.99)
+2025-10-26 20:50:04.977 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     - The Matrix ($19.99)
+2025-10-26 20:50:04.977 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     - The Red Balloon ($9.99)
+2025-10-26 20:50:04.977 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     - Quantum Physics Explained ($0.00)
+2025-10-26 20:50:04.977 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+6. MEDIA VERSATILITY SHOWCASE
+2025-10-26 20:50:04.977 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - -------------------------------
+2025-10-26 20:50:04.977 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Video Content Types:
+2025-10-26 20:50:04.977 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+  Movie: The Matrix
+2025-10-26 20:50:04.978 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Director: The Wachowskis
+2025-10-26 20:50:04.978 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Duration: 136 minutes
+2025-10-26 20:50:04.978 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Quality: HD Quality
+2025-10-26 20:50:04.978 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Format: MP4
+2025-10-26 20:50:04.978 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Rating: R
+2025-10-26 20:50:04.978 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Aspect Ratio: 2.39:1
+2025-10-26 20:50:04.978 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Subtitles: Yes
+2025-10-26 20:50:04.979 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Streaming Bandwidth: 8.0 Mbps
+2025-10-26 20:50:04.979 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Cast: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss
+2025-10-26 20:50:04.979 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+  Tutorial: Advanced Java Programming
+2025-10-26 20:50:04.979 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Director: Tech Education Inc
+2025-10-26 20:50:04.979 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Duration: 480 minutes
+2025-10-26 20:50:04.979 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Quality: HD Quality
+2025-10-26 20:50:04.979 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Format: MP4
+2025-10-26 20:50:04.979 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Rating: NR
+2025-10-26 20:50:04.980 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Aspect Ratio: 16:9
+2025-10-26 20:50:04.980 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Subtitles: Yes
+2025-10-26 20:50:04.980 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Streaming Bandwidth: 8.0 Mbps
+2025-10-26 20:50:04.980 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Cast: Dr. Sarah Chen
+2025-10-26 20:50:04.980 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+  TV Series: Breaking Bad - Season 1
+2025-10-26 20:50:04.980 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Director: Vince Gilligan
+2025-10-26 20:50:04.980 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Duration: 420 minutes
+2025-10-26 20:50:04.980 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Quality: HD Quality
+2025-10-26 20:50:04.980 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Format: MKV
+2025-10-26 20:50:04.980 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Rating: TV-MA
+2025-10-26 20:50:04.980 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Aspect Ratio: 16:9
+2025-10-26 20:50:04.980 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Subtitles: Yes
+2025-10-26 20:50:04.980 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Streaming Bandwidth: 8.0 Mbps
+2025-10-26 20:50:04.980 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Cast: Bryan Cranston, Aaron Paul, Anna Gunn
+2025-10-26 20:50:04.981 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+  Short Film: The Red Balloon
+2025-10-26 20:50:04.981 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Director: Albert Lamorisse
+2025-10-26 20:50:04.981 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Duration: 34 minutes
+2025-10-26 20:50:04.981 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Quality: Standard Quality
+2025-10-26 20:50:04.981 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Format: AVI
+2025-10-26 20:50:04.981 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Rating: G
+2025-10-26 20:50:04.981 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Aspect Ratio: 4:3
+2025-10-26 20:50:04.981 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Subtitles: No
+2025-10-26 20:50:04.981 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Streaming Bandwidth: 3.0 Mbps
+2025-10-26 20:50:04.981 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Cast: Pascal Lamorisse
+2025-10-26 20:50:04.981 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+  Educational: Quantum Physics Explained
+2025-10-26 20:50:04.981 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Director: MIT OpenCourseWare
+2025-10-26 20:50:04.981 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Duration: 90 minutes
+2025-10-26 20:50:04.981 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Quality: High Quality
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Format: WEBM
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Rating: NR
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Aspect Ratio: 16:9
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Subtitles: Yes
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Streaming Bandwidth: 5.0 Mbps
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Cast: Prof. Walter Lewin
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+  Documentary: Planet Earth II
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Director: David Attenborough
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Duration: 300 minutes
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Quality: Ultra HD
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Format: MP4
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Rating: G
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Aspect Ratio: 16:9
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Subtitles: Yes
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Streaming Bandwidth: 25.0 Mbps
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Cast: David Attenborough
+2025-10-26 20:50:04.982 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+
+Audio Quality Comparison:
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+  1984
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Quality: High Quality
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Format: MP3
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     File Size: 850.5 MB
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Duration: 690 minutes
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Estimated Bitrate: 168 kbps
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Download Time (10 Mbps): 681 seconds
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+  The Hobbit
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Quality: Standard Quality
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Format: M4B
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     File Size: 450.0 MB
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Duration: 660 minutes
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Estimated Bitrate: 93 kbps
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Download Time (10 Mbps): 360 seconds
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+  Atomic Habits
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Quality: Ultra HD
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Format: FLAC
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     File Size: 1200.0 MB
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Duration: 320 minutes
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Estimated Bitrate: 512 kbps
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Download Time (10 Mbps): 960 seconds
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 7. STREAMING VS DOWNLOAD ANALYSIS
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - -----------------------------------
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Streaming-Only Content (Large Files > 4GB):
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - Planet Earth II (4500.0 MB)
+2025-10-26 20:50:04.983 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - Breaking Bad - Season 1 (8500.0 MB)
+2025-10-26 20:50:04.984 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Downloadable Content:
+2025-10-26 20:50:04.984 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - 1984 (850.5 MB, Download time @ 50 Mbps: 137s)
+2025-10-26 20:50:04.984 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - The Hobbit (450.0 MB, Download time @ 50 Mbps: 72s)
+2025-10-26 20:50:04.984 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - Atomic Habits (1200.0 MB, Download time @ 50 Mbps: 192s)
+2025-10-26 20:50:04.984 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - The Matrix (2800.0 MB, Download time @ 50 Mbps: 448s)
+2025-10-26 20:50:04.984 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - Advanced Java Programming (3200.0 MB, Download time @ 50 Mbps: 512s)
+2025-10-26 20:50:04.984 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - The Red Balloon (250.0 MB, Download time @ 50 Mbps: 40s)
+2025-10-26 20:50:04.984 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   - Quantum Physics Explained (680.0 MB, Download time @ 50 Mbps: 109s)
+2025-10-26 20:50:04.984 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+Quality vs Storage Requirements:
+2025-10-26 20:50:04.984 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -   Format Distribution:
+2025-10-26 20:50:04.984 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Ultra HD: 2 items
+2025-10-26 20:50:04.984 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     High/HD: 5 items
+2025-10-26 20:50:04.984 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Standard/Low: 2 items
+2025-10-26 20:50:04.986 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+  Total Storage Required: 21.90 GB
+2025-10-26 20:50:04.986 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+  Bandwidth Requirements by Quality:
+2025-10-26 20:50:04.986 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Planet Earth II (Ultra HD): 25.0 Mbps
+2025-10-26 20:50:04.986 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     The Matrix (HD Quality): 8.0 Mbps
+2025-10-26 20:50:04.986 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Advanced Java Programming (HD Quality): 8.0 Mbps
+2025-10-26 20:50:04.986 [main] INFO  com.university.bookstore.demo.PolymorphismDemo -     Breaking Bad - Season 1 (HD Quality): 8.0 Mbps
+2025-10-26 20:50:04.986 [main] INFO  com.university.bookstore.demo.PolymorphismDemo - 
+
