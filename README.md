@@ -1,8 +1,25 @@
+
+2. Concurrency Challenges:
+
+Making a system thread-safe is hard because multiple threads might try to change the same data at the same time, causing race conditions or inconsistent results. We also have to make sure one thread’s changes are visible to others and avoid deadlocks where threads get stuck waiting for each other. To keep the system correct but still fast, we only use synchronization when needed. For example, synchronized blocks make code simple but can slow things down because only one thread can enter at a time. ReentrantReadWriteLock lets many threads read at once but still locks for writing, which is faster for read-heavy tasks. ConcurrentHashMap is even better for shared data like caches because it manages locking internally and is very efficient. The main goal is to protect data while keeping performance good  correctness first, then speed.
+
+
+
+
 4. When would you choose a simple ArrayList over a more complex Trie for search operations? What factors influence this decision? How do you measure and validate performance improvements
 
 A simple ArrayList would be better over a Trie for search operations when it comes to small dataset, or in other words, there are not that many words being stored which will make a linear search being a lot more easier to implement on an ArrayList to see if it contains the prefix using .contains(), or another factor is when you don’t need to do lookups that often. With that as well in small datasets, they have better memory performance because they are contiguous compared to Trie where each node will have the data and the child pointer.
 
 Therefore, Trie’s are typically better when it comes to search operations especially in large datasets when it takes less steps to find the words given a prefix, but in smaller datasets where less words are used, an ArrayList is easier to implement. Another way is that if whole words are used instead of prefixes, Arraylist would be better since you can just use the .contains() method.
+
+
+
+5. Quality Assurance: 
+
+Unit tests check if our code works, but they don’t always prove that tests are strong. Mutation testing helps by making small changes to the code on purpose and checking if the tests fail  if they don’t, our tests are weak. Static analysis tools like SonarLint or PMD check our code automatically for bugs or bad design without running it. Together, these methods give more confidence that our code is both correct and high quality. Code coverage shows how much code is tested, but a high percentage doesn’t always mean good tests. Mutation score shows how many fake bugs mutations our tests caught  this is a better sign of real test strength. Both are important because coverage tells us what we tested, and mutation score tells us how well we tested it.
+
+
+
 
 6. How would you modify this system to handle 1 million materials instead of 10,000? Which components would need the most attention? How would you implement horizontal scaling for the search and caching components?  
 
@@ -20,7 +37,16 @@ Property-based testing (PBT) validates general invariants over a wide range of r
    
 Maintainability is supported by the Hexagonal Architecture, SOLID principles, and patterns like Decorator and Observer, which enable modular, loosely coupled components and easier feature addition. Quality gates and testing reinforce reliability. Areas for improvement include managing concurrency complexity (e.g., StampedLock) and the learning curve from multiple integrated design patterns, which can introduce abstraction overhead and make the system harder for new developers to grasp.
 
-12. Why was a Trie chosen for prefix search over other data structures? What are the memory vs time complexity trade-offs? How would you optimize the Trie implementation for a production system?
+
+10. Professional Practice:
+
+In Lab 3, quality gates made sure our code met certain standards before being accepted like no big bugs, good test coverage, and clean code. Benchmarking tested how fast parts of the system ran, such as caching or searching. These practices are used in real software companies to keep code reliable while still developing quickly. To balance speed and quality, we can work fast but always test and review code before merging. If I could add something, I’d include automatic style checks and simple performance tests in every build, so we keep improving quality without slowing down development.
+
+11. Pattern Integration:
+The patterns in Lab 3 all work together to keep the bookstore system flexible and easy to update. For example, the Factory creates different Material types, the Decorator adds new features like gift wrapping, and the Observer notifies other parts when prices change. These patterns complement each other  one focuses on creation, another on behavior, and another on communication. The challenge is making them work together without adding too much complexity. That’s where Hexagonal Architecture helps it separates the domain logic from outside parts like storage or UI. This keeps patterns organized in their own layers, so we can test, change, or add new patterns later without breaking existing code.
+
+
+13. Why was a Trie chosen for prefix search over other data structures? What are the memory vs time complexity trade-offs? How would you optimize the Trie implementation for a production system?
 
 A Trie was chosen because of its ability to store strings as a single character for each node, character by character, and the path from the root to a specific node represents a prefix. One of the reasons why a Trie is preferred over another data structure like an ArrayList for example, is the performance for searching an element. Searching in a Trie is O(P + R) where P = prefix length and R = number of results, compared to an ArrayList where checking every word that starts with a prefix is O(N * M) where N is the number of words and M is the length of the prefix. Although its time complexity is better than something like an ArrayList, an ArrayList has better memory complexity, O(N) where N is the number of elements stored, compared to a Trie where it is O(total characters) + stored object references. But generally, a Trie is preferred because you just have to follow the characters by comparing at one character per level instead of comparing to an entire string, which also leads to less comparison towards entire strings.
 
