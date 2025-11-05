@@ -2,6 +2,8 @@
 
 [![YIP](https://img.youtube.com/vi/dRD06M4h-n8/0.jpg)](https://www.youtube.com/watch?v=dRD06M4h-n8)
 
+## Reflection Questions
+
 2. Concurrency Challenges:
 
 Making a system thread-safe is hard because multiple threads might try to change the same data at the same time, causing race conditions or inconsistent results. We also have to make sure one thread’s changes are visible to others and avoid deadlocks where threads get stuck waiting for each other. To keep the system correct but still fast, we only use synchronization when needed. For example, synchronized blocks make code simple but can slow things down because only one thread can enter at a time. ReentrantReadWriteLock lets many threads read at once but still locks for writing, which is faster for read-heavy tasks. ConcurrentHashMap is even better for shared data like caches because it manages locking internally and is very efficient. The main goal is to protect data while keeping performance good  correctness first, then speed.
