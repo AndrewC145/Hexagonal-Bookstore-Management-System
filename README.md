@@ -1,4 +1,4 @@
-<iframe width="560" height="315" src="https://youtu.be/dRD06M4h-n8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![YIP](https://img.youtube.com/vi/dRD06M4h-n8/0.jpg)](https://www.youtube.com/watch?v=dRD06M4h-n8)
 
 2. Concurrency Challenges:
 
