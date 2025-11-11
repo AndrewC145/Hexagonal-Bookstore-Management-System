@@ -73,3 +73,8 @@ Another example is a First-In-First-Out (FIFO) where it strictly follows the ord
 14. Event-Driven Architecture: How does the Observer pattern enable event-driven architecture?What are the benefits and challenges of loose coupling through events? How would you implement event sourcing with this architecture?
 
 The Observer pattern enables event-driven architecture by allowing the components of the event-driven architecture to communicate through events instead of direct method calls. Which promotes loose coupling, where publishers emit events and subscribers react to them,making the system more flexible and scalable. Event sourcing is implemented into the event-driven architecture by treating the state changes that occur in the system as events that get stored and published.
+
+15. Builder Pattern Complexity: The MaterialDirector demonstrates complex object construction.When is the Builder pattern worth the additional complexity? How do you balance flexibility with simplicity in object creation?
+
+The builder pattern is worth the additional complexity when creating complex objects that require either more than one optional parameter, step by step configuration, or different variations of the same type. Is usually worth the added complexity since the creation of objects require many parameters, when the process of constructing it needs to be managed, and when it improves the readability and maintainability of the code.The builder pattern offers a balance between flexibility and simplicity through the sole usage of the builder pattern which gives flexibility while the director provides simplicity to the process in common cases.
+
